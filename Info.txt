@@ -1,0 +1,4 @@
+Sublime Text 3 info note.
+
+1. Place 'Sublime Text 3' folder into 'Application Support' system directory.
+2. Move 'Sublime Text' app to 'Applications' system directory.
