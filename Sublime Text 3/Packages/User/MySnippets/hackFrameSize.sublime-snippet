@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+addComponentListener( new ComponentAdapter() {
+	public void componentResized( ComponentEvent evt ) {
+		if( getWidth() <= 261 ) {
+			setTitle( getWidth() + " - " + getHeight() );
+		} else {
+			setTitle( "Hacking frame size: " + getWidth() + " - " + getHeight() );
+		}
+	}
+} );
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>hs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+	<description>frame size hack</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+setAccelerator( KeyStroke.getKeyStroke( 'W', 4 ) );
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>stroke</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+	<description>add keyStroke (import javax.swing.KeyStroke)</description>
+</snippet>

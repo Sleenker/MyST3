@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+package ;
+
+/**
+ * Engineerd and developed by Jhonny Trejos Barrios.
+ * Tecnologia: Java.
+ * Version: Java Development Kit 1.8.0_31, Standard Edition.
+ * Development Environment: Sublime Text 3.
+ *
+ * Additional Info.
+ *
+ * Source Code Target Or Details:
+ *
+ *              []
+ *
+ * Licenses: GNU GPL v3.0, Eclipse Public License 1.0, personal not for commercial purposes.
+ * Developer Contact: jtrejosb@live.com || jtrejosb@gmail.com || jtrejosb@icloud.com
+ * Mobile: --
+ */
+
+public class ${TM_FILENAME/(.*?)(\..+)/$1/} {
+	$0
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+	<description>New Java Class</description>
+</snippet>

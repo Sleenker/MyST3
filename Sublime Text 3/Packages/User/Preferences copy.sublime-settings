@@ -1,0 +1,49 @@
+{
+	"auto_complete": true,
+	"auto_complete_cycle": true,
+	"auto_complete_with_fields": true,
+	"bold_folder_labels": true,
+	"caret_extra_top": 1,
+	"caret_extra_width": 7,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"copy_with_empty_selection": true,
+	"draw_white_space": "none",
+	"file_exclude_patterns":
+	[
+		"*.jar",
+		"*.ds_store"
+	],
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"margin": 1,
+	"match_brackets": false,
+	"open_files_in_new_window": false,
+	"rulers":
+	[
+		147,
+		147.1,
+		147.2,
+		147.3
+	],
+	"scroll_past_end": true,
+	"show_full_path": false,
+	"spacegray_fileicons": true,
+	"spacegray_sidebar_font_large": true,
+	"tab_completion": true,
+	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
+	"wide_caret": true
+}

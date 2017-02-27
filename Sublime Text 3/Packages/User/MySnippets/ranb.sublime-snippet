@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+new Random().nextBoolean()
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ranb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+	<description>nextBoolean Method</description>
+</snippet>

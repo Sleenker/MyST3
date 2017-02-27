@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[switch( $1 ) {
+	case "":
+		break;
+	case "":
+		break;
+}]]></content>
+	<tabTrigger>sw</tabTrigger>
+	<scope>source.java</scope>
+	<description>switch</description>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+public void setTheme() {
+  try{
+    // UIManager.setLookAndFeel( "javax.swing.plaf.metal.MetalLookAndFeel" );  //    Java Default Theme
+    UIManager.setLookAndFeel( "com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel" );  //   Java Swing Theme
+    // UIManager.setLookAndFeel( "com.sun.java.swing.plaf.motif.MotifLookAndFeel" );  //    UNIX Systems Theme
+  } catch( Exception e ) {
+    e.printStackTrace();
+  }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>theme</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+	<description>GUI Theme Method</description>
+</snippet>

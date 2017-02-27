@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Theme - Gravity/One Dark Gravity.tmTheme",
+	"gravity_tab_height_short": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"spacegray_fileicons": true,
+	"spacegray_sidebar_font_large": true,
+	"theme": "Spacegray.sublime-theme"
+}

@@ -1,0 +1,38 @@
+[
+  // New Java Class Headings [with Date & Time headers]
+  { "keys": ["super+ctrl+c"], "command": "javaclass" },
+  { "keys": ["super+ctrl+v"], "command": "javagui" },
+
+  // New Source Files [includes JS, CSS and HTML with Date & Time headers]
+  { "keys": ["super+ctrl+b"], "command": "newsource" },
+
+  // AdvancedNewFile Plugin
+  { "keys": ["super+n"], "command": "advanced_new_file_new"},
+
+	// ADD SPACE BETWEEN BRACKETS (...
+	{ "keys": [" "], "command": "insert_snippet", "args": {"contents": " $0 "}, "context":
+  		[
+    		{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    		{ "key": "preceding_text", "operator": "regex_contains", "operand": "\\($", "match_all": true },
+    		{ "key": "following_text", "operator": "regex_contains", "operand": "^\\)", "match_all": true }
+  		]
+	},
+
+	// ADD SPACE BETWEEN BRACKETS [...
+	{ "keys": [" "], "command": "insert_snippet", "args": {"contents": " $0 "}, "context":
+  		[
+    		{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    		{ "key": "preceding_text", "operator": "regex_contains", "operand": "\\[$", "match_all": true },
+    		{ "key": "following_text", "operator": "regex_contains", "operand": "^\\]", "match_all": true }
+  		]
+	},
+
+	// ADD SPACE BETWEEN BRACKETS {...
+	{ "keys": [" "], "command": "insert_snippet", "args": {"contents": " $0 "}, "context":
+  		[
+    		{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    		{ "key": "preceding_text", "operator": "regex_contains", "operand": "\\{$", "match_all": true },
+    		{ "key": "following_text", "operator": "regex_contains", "operand": "^\\}", "match_all": true }
+  		]
+	}
+]
